@@ -1,0 +1,18 @@
+import random
+print("Wellcome to ---> 'Gase The Game'")
+L = [5,15,25,35,40,50,65,75,80,90]
+A = random.choice(L)
+n=10
+while ( n>0 ):
+	n = n-1
+	B=int(input("Gase the number \n"))
+	if A==B :
+		print("You Gase the right no.")
+		print("You got ",(n)," point")
+		break
+	elif A>B :
+		print("It's wrong.Your no is smaller")
+		print("You left ",(n)," life")
+	else :
+		print("It's wrong.Your no is Bigger")
+		print("You left ",(n)," life")
